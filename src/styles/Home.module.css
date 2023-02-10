@@ -5,7 +5,7 @@
   flex-direction: column;
 }
 
-/* Navbar */
+/* ==================Navbar================== */
 .customnavbar {
   background-color: blueviolet !important;
 }
@@ -30,10 +30,10 @@
   justify-content: flex-end !important;
 }
 
-/* Hero */
+/* ==================Hero================== */
 .hero {
   background-color: blueviolet;
-  height: 720px;
+  height: 45rem;
   display: flex;
   align-items: center;
 }
@@ -49,13 +49,13 @@
 }
 
 .heroContent h1 {
-  font-size: 60px;
+  font-size: 3.75rem;
 }
 
 .heroContent p {
   color: white;
   text-align: left;
-  padding-top: 12px;
+  padding-top: 0.75rem;
 }
 
 .heroImage {
@@ -64,11 +64,11 @@
 }
 
 .customBtn {
-  width: 14.375rem;
-  height: 3.125rem;
+  width: 230px;
+  height: 50px;
   color: #fff;
-  border-radius: 0.9375rem;
-  padding: 0.625rem 1.5625rem;
+  border-radius: 15px;
+  padding: 10px 25px;
   font-family: 'Lato', sans-serif;
   font-weight: 500;
   background: transparent;
@@ -76,9 +76,9 @@
   transition: all 0.3s ease;
   position: relative;
   display: inline-block;
-  box-shadow: inset 0.125rem 0.125rem 0.125rem 0rem rgba(255, 255, 255, .5),
-    0.4375rem 0.4375rem 1.25rem 0rem rgba(0, 0, 0, .1),
-    0.25rem 0.25rem 0.3125rem 0rem rgba(0, 0, 0, .1);
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+    7px 7px 20px 0px rgba(0, 0, 0, .1),
+    4px 4px 5px 0px rgba(0, 0, 0, .1);
   /* outline: none; */
 }
 
@@ -97,10 +97,10 @@
   right: 0;
   z-index: -1;
   background-color: #663dff;
-  border-radius: 0.3125rem;
-  box-shadow: inset 0.125rem 0.125rem 0.125rem 0rem rgba(255, 255, 255, .5),
-    0.4375rem 0.4375rem 1.25rem 0rem rgba(0, 0, 0, .1),
-    0.25rem 0.25rem 0.3125rem 0rem rgba(0, 0, 0, .1);
+  border-radius: 5px;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+    7px 7px 20px 0px rgba(0, 0, 0, .1),
+    4px 4px 5px 0px rgba(0, 0, 0, .1);
   transition: all 0.3s ease;
 }
 
@@ -114,25 +114,25 @@
 }
 
 .btn:active {
-  top: 0.125rem;
+  top: 2px;
 }
 
-/* Features */
+/* ==================Features================== */
 
 /* .features{
-  height: 480px; 
+  height: 30rem; 
 } */
 
 .featureBg {
   width: 100%;
   height: auto;
-  margin-top: -0.0625rem;
+  margin-top: -1px;
 }
 
 .featureBgBtm {
   width: 100%;
   height: auto;
-  margin-bottom: -1px;
+  margin-bottom: -0.0625rem;
 }
 
 .featureImg {
@@ -147,14 +147,14 @@
 }
 
 .featureContent h1 {
-  font-size: 44px;
+  font-size: 2.75rem;
   width: 100% !important;
   text-align: left;
   color: blueviolet;
 }
 
 .featureSet {
-  margin-top: 12px;
+  margin-top: 0.75rem;
 }
 
 .ftSubContent {
@@ -166,19 +166,19 @@
 }
 
 .ftSubContent h2 {
-  font-size: 20px;
-  font-weight: 600px !important;
+  font-size: 1.25rem;
+  font-weight: 37.5rem !important;
   font-style: bold;
-  margin-top: 12px;
+  margin-top: 0.75rem;
 }
 
 .ftSubContent p {
-  font-size: 0.875rem;
-  font-weight: 12.5rem !important;
+  font-size: 14px;
+  font-weight: 200px !important;
   opacity: 0.6;
 }
 
-/* API */
+/* ==================API================== */
 
 .api {
   background-color: blueviolet;
@@ -193,59 +193,78 @@
 
 .apiContent h1 {
   color: white;
-  font-size: 44px;
-  font-weight: 600px !important;
+  font-size: 2.75rem;
+  font-weight: 37.5rem !important;
   font-style: bold;
-  margin-top: 12px;
+  margin-top: 0.75rem;
 }
 
 .apiStat {
-  margin-top: 1.5rem;
+  margin-top: 24px;
 }
 
 .counter {
-  font-size: 2.5625rem;
+  font-size: 41px;
   color: white;
 }
 
 .counter p {
-  font-size: 0.9375rem;
+  font-size: 15px;
   color: white !important;
   /* opacity: 0.6; */
 }
 
 .statSubContent {
   color: white;
-  margin-top: 15px;
+  margin-top: 0.9375rem;
   opacity: 0.6;
 }
 
-/* Media Query Mobile Devices */
+/* pricing */
 
-@media (max-width: 36rem) {
+.pricingContainer{
+  margin-top: 1.125rem !important;
+}
 
-  /* hero */
+.pricingHeading{
+  color: #b621fe;
+  font-size: 2.75rem;
+}
+
+.pricingSubHeading{
+  font-size: 18px !important;
+}
+
+.priceCardActive{
+  background-color: blueviolet;
+  color: #fff;
+}
+/* ==================Media Query Mobile Devices================== */
+
+@media (max-width: 576px) {
+
+  /* ==================hero================== */
   .navItems {
     justify-content: flex-start !important;
   }
 
   .customBtn {
-    width: 12.5rem;
+    width: 200px;
   }
 
   .heroImage {
-    width: 320px !important;
+    width: 20rem !important;
     height: auto;
-    margin-top: 18px;
+    margin-top: 1.125rem;
   }
 
   .heroContent {
     align-items: center;
-    margin-top: 80px !important;
+    margin-top: 5rem !important;
   }
 
   .heroContent h1 {
-    font-size: 48px;
+    font-size: 3rem;
     text-align: center;
   }
 
@@ -253,7 +272,7 @@
     text-align: center;
   }
 
-  /* feature */
+  /* ==================feature================== */
 
   .featureImgContainer {
     display: flex !important;
@@ -261,7 +280,7 @@
   }
 
   .featureImg {
-    width: 320px;
+    width: 20rem;
     height: auto;
   }
 
@@ -278,7 +297,7 @@
     text-align: center;
   }
 
-  /* Api */
+  /* ==================Api================== */
 
   .apiContent {
     text-align: center;
@@ -294,8 +313,8 @@
 }
 
 
-/* Media Query tabs and other devices */
-@media (max-width: 62rem) {
+/* ==================Media Query tabs and other devices================== */
+@media (max-width: 992px) {
   
   .hero{
     height: auto;
@@ -305,6 +324,6 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 9.375rem;
   }
 }
