@@ -8,7 +8,8 @@ import ftIcon2 from '../assets/images/feature/ftIcon2.png'
 import ftIcon3 from '../assets/images/feature/ftIcon3.png'
 import ftIcon4 from '../assets/images/feature/ftIcon4.png'
 import featureAnimation from '../assets/images/feature/featureAnimation.svg'
-import featureBg from '../assets/images/feature/featureBg.svg'
+import featureBgTop from '../assets/images/feature/featureBgTop.svg'
+import featureBgBtm from '../assets/images/feature/featureBgBtm.svg'
 
 export default function Home() {
   return (
@@ -70,8 +71,8 @@ export default function Home() {
 
         {/* Features */}
 
-        <div classNam={styles.features}>
-          <Image src={featureBg} width='1920' height='301' className={styles.featureBg} />
+        <div className={styles.features}>
+          <Image src={featureBgTop} width='1920' height='301' className={styles.featureBg} />
           <div class="container text-center">
             <div class="row">
               <div class={`col-lg-6 ${styles.featureImgContainer}`}>
@@ -130,7 +131,7 @@ export default function Home() {
 
             </div>
           </div>
-
+          <Image src={featureBgBtm} width='1920' height='301' className={styles.featureBg} />
         </div>
 
       </main>
