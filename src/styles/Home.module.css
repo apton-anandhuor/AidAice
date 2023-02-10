@@ -176,8 +176,13 @@
 
 @media (max-width: 576px) {
 
+  /* hero */
   .navItems {
     justify-content: flex-start !important;
+  }
+
+  .customBtn{
+    width: 200px;
   }
 
   .heroImage {
@@ -199,9 +204,29 @@
     text-align: center;
   }
 
+  /* feature */
+
+  .featureImgContainer{
+    display: flex !important;
+    justify-content: center !important;
+  }
+
   .featureImg{
     width: 20rem;
     height: auto;
+  }
+
+  .featureContent{
+    align-items: center;
+  }
+
+  .featureContent h1{
+    text-align: center;
+  }
+
+  .ftSubContent{
+    align-items: center;
+    text-align: center;
   }
 }
 

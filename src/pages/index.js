@@ -74,7 +74,7 @@ export default function Home() {
           <Image src={featureBg} width='1920' height='301' className={styles.featureBg} />
           <div class="container text-center">
             <div class="row">
-              <div class="col-lg-6">
+              <div class={`col-lg-6 ${styles.featureImgContainer}`}>
                 <Image src={featureAnimation} width='500' height='500' className={styles.featureImg} />
               </div>
 
@@ -126,7 +126,6 @@ export default function Home() {
                   </div>
 
                 </div>
-                <button class={`${styles.customBtn} ${styles.btn}`}>Know More</button>
               </div>
 
             </div>
