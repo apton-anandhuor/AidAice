@@ -73,7 +73,7 @@ export default function Home() {
                 <button class={`${styles.customBtn} ${styles.btn}`}>Know More</button>
               </div>
               <div class="col-lg-6">
-                <Image className={styles.heroImage} src={heroAnimation} width="900" height="500" />
+                <Image className={styles.heroImage} src={heroAnimation} width="900" height="500" alt='heroAnimation' />
               </div>
             </div>
           </div>
@@ -82,11 +82,11 @@ export default function Home() {
         {/* Features */}
 
         <div className={styles.features}>
-          <Image src={featureBgTop} width='1920' height='301' className={styles.featureBg} />
+          <Image src={featureBgTop} width='1920' height='301' className={styles.featureBg} alt='feature bgTop' />
           <div class="container text-center">
             <div class="row">
               <div class={`col-lg-6 ${styles.featureImgContainer}`}>
-                <Image src={featureAnimation} width='500' height='500' className={styles.featureImg} />
+                <Image src={featureAnimation} width='500' height='500' className={styles.featureImg} alt="feature animation" />
               </div>
 
               <div class={`col-lg-6 ${styles.featureContent}`}>
@@ -97,7 +97,7 @@ export default function Home() {
                   <div className="row">
                     <div className="col-sm">
                       <div className={styles.ftSubContent}>
-                        <Image src={ftIcon1} width='30' height='30' />
+                        <Image src={ftIcon1} width='30' height='30' alt='feature icon' />
                         <h2>Fully Automated Call Bots</h2>
                         <p>Fully automated call bots, also known as IVR (Interactive Voice Response)
                           systems, use pre-recorded audio and natural language processing to interact
@@ -107,7 +107,7 @@ export default function Home() {
 
                     <div className="col-sm">
                       <div className={styles.ftSubContent}>
-                        <Image src={ftIcon2} width='30' height='30' />
+                        <Image src={ftIcon2} width='30' height='30'alt='feature icon' />
                         <h2>24/7 Assistance</h2>
                         <p>We can handle a variety of tasks, such as routing calls, providing information,
                           and completing transactions, 24/7 without the need for human intervention.</p>
@@ -118,7 +118,7 @@ export default function Home() {
                   <div className="row">
                     <div className="col-sm">
                       <div className={styles.ftSubContent}>
-                        <Image src={ftIcon3} width='30' height='30' />
+                        <Image src={ftIcon3} width='30' height='30' alt='feature icon' />
                         <h2>Affordable Price</h2>
                         <p>A variety of options are available, including cloud-based solutions and open-source
                           IVR systems, making it easier for businesses of all sizes to find a solution that fits
@@ -128,7 +128,7 @@ export default function Home() {
 
                     <div className="col-sm">
                       <div className={styles.ftSubContent}>
-                        <Image src={ftIcon4} width='30' height='30' />
+                        <Image src={ftIcon4} width='30' height='30' alt='feature icon' />
                         <h2>Fast and Reliable</h2>
                         <p>Our Call bots are designed to be fast and reliable, handling a high volume of calls
                           simultaneously and providing quick, accurate responses to customer inquiries.</p>
@@ -140,7 +140,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <Image src={featureBgBtm} width='1920' height='301' className={styles.featureBgBtm} />
+          <Image src={featureBgBtm} width='1920' height='301' className={styles.featureBgBtm} alt='featureBg btm' />
         </div>
 
         {/* API */}
@@ -185,12 +185,12 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <p className={styles.statSubContent}>This stats means a lot to us. Our call bots are able to quickly retrieve 
-                  and process large amounts of data, enabling them to provide quick and accurate 
+                <p className={styles.statSubContent}>This stats means a lot to us. Our call bots are able to quickly retrieve
+                  and process large amounts of data, enabling them to provide quick and accurate
                   responses to customer inquiries. </p>
               </div>
               <div class="col-lg-6">
-                <Image className={styles.heroImage} src={apiAnimation} width="900" height="500" />
+                <Image className={styles.heroImage} src={apiAnimation} width="900" height="500" alt='api animation' />
               </div>
             </div>
           </div>
