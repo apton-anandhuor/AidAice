@@ -241,6 +241,7 @@
 
   .heroContent {
     align-items: center;
+    margin-top: 80px !important;
   }
 
   .heroContent h1 {
@@ -295,8 +296,15 @@
 
 /* Media Query tabs and other devices */
 @media (max-width: 62rem) {
+  
+  .hero{
+    height: auto;
+  }
+
   .heroContent {
     align-items: center;
     justify-content: center;
+    text-align: center;
+    margin-top: 150px;
   }
 }

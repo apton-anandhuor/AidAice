@@ -49,6 +49,9 @@ export default function Home() {
                   <Link className="nav-link active" aria-current="page" href="#">Home</Link>
                 </li>
                 <li className="nav-item">
+                  <a className="nav-link" href="#features">Features</a>
+                </li>
+                <li className="nav-item">
                   <a className="nav-link" href="#">Pricing</a>
                 </li>
                 <li className="nav-item">
@@ -81,7 +84,7 @@ export default function Home() {
 
         {/* Features */}
 
-        <div className={styles.features}>
+        <div className={styles.features} id="features"> 
           <Image src={featureBgTop} width='1920' height='301' className={styles.featureBg} alt='feature bgTop' />
           <div class="container text-center">
             <div class="row">
