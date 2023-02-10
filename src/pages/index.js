@@ -10,8 +10,18 @@ import ftIcon4 from '../assets/images/feature/ftIcon4.png'
 import featureAnimation from '../assets/images/feature/featureAnimation.svg'
 import featureBgTop from '../assets/images/feature/featureBgTop.svg'
 import featureBgBtm from '../assets/images/feature/featureBgBtm.svg'
+import apiAnimation from '../assets/images/api/apiAnimation.svg'
+import CountUp from 'react-countup'
+import { useInView } from 'react-intersection-observer'
+
 
 export default function Home() {
+
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+    threshold: 0.5
+  })
+
   return (
     <>
       <Head>
@@ -128,10 +138,62 @@ export default function Home() {
 
                 </div>
               </div>
-
             </div>
           </div>
-          <Image src={featureBgBtm} width='1920' height='301' className={styles.featureBg} />
+          <Image src={featureBgBtm} width='1920' height='301' className={styles.featureBgBtm} />
+        </div>
+
+        {/* API */}
+
+        <div className={styles.api}>
+          <div class="container text-center">
+            <div class="row">
+              <div class={`col-lg-6 ${styles.apiContent}`}>
+                <h1>How we changing the Industry.</h1>
+                <div className={`row ${styles.apiStat}`}>
+                  <div className="col">
+                    <div ref={ref} className={styles.counter}>
+                      {inView ? (
+                        <CountUp
+                          end={150}
+                          duration={3}
+                        />
+                      ) : null}M+
+                      <p>Api Request from all around the world.</p>
+                    </div>
+                  </div>
+                  <div className="col">
+                    <div ref={ref} className={styles.counter}>
+                      {inView ? (
+                        <CountUp
+                          end={99}
+                          duration={3}
+                        />
+                      ) : null}+
+                      <p>Countries and trusted industries.</p>
+                    </div>
+                  </div>
+                  <div className="col">
+                    <div ref={ref} className={styles.counter}>
+                      {inView ? (
+                        <CountUp
+                          end={120}
+                          duration={3}
+                        />
+                      ) : null}M+
+                      <p>Hours of call and chat support.</p>
+                    </div>
+                  </div>
+                </div>
+                <p className={styles.statSubContent}>This stats means a lot to us. Our call bots are able to quickly retrieve 
+                  and process large amounts of data, enabling them to provide quick and accurate 
+                  responses to customer inquiries. </p>
+              </div>
+              <div class="col-lg-6">
+                <Image className={styles.heroImage} src={apiAnimation} width="900" height="500" />
+              </div>
+            </div>
+          </div>
         </div>
 
       </main>
