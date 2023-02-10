@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@next/font": "13.1.6",
+    "@vercel/analytics": "^0.1.8",
     "antd": "^5.2.0",
     "bootstrap": "^5.2.3",
     "eslint": "8.33.0",
