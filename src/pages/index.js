@@ -149,7 +149,7 @@ export default function Home() {
           <div class="container text-center">
             <div class="row">
               <div class={`col-lg-6 ${styles.apiContent}`}>
-                <h1>How we changing the Industry.</h1>
+                <h1>How we changing the Industry?</h1>
                 <div className={`row ${styles.apiStat}`}>
                   <div className="col">
                     <div ref={ref} className={styles.counter}>
