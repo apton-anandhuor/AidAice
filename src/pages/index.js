@@ -13,6 +13,7 @@ import featureBgBtm from '../assets/images/feature/featureBgBtm.svg'
 import apiAnimation from '../assets/images/api/apiAnimation.svg'
 import CountUp from 'react-countup'
 import { useInView } from 'react-intersection-observer'
+import pricingBg from '../assets/images/pricing/pricingBg.svg'
 import pricingTop from '../assets/images/pricing/pricingTop.svg'
 import pricingBtm from '../assets/images/pricing/pricingBtm.svg'
 import pricingFree from '../assets/images/pricing/pricingFree.svg'
@@ -213,7 +214,11 @@ export default function Home() {
 
         {/* Pricing Starts */}
 
-        <div className={styles.pricing}>
+        <div className={styles.pricing} style={{
+          backgroundImage: `url(${pricingBg.src})`,
+          backgroundRepeat: 'no-repeat',
+          backgroundSize: 'cover'
+        }}>
           <Image src={pricingTop} width='1920' height='301' className={styles.featureBg} alt='feature bgTop' />
           <div className={`container ${styles.pricingContainer}`}>
             <div class="pricing-header p-3 pb-md-4 mx-auto text-center">

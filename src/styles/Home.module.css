@@ -222,11 +222,11 @@
 
 /* pricing */
 
-.pricing{
+/* .pricing{
   background-image: url('../assets/images/pricing/pricingBg.svg');
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
 .pricingContainer{
   margin-top: 1.125rem !important;
@@ -245,6 +245,7 @@
   background-color: blueviolet;
   color: #fff;
 }
+
 /* ==================Media Query Mobile Devices================== */
 
 @media (max-width: 576px) {
