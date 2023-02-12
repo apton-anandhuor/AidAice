@@ -15,6 +15,9 @@ import CountUp from 'react-countup'
 import { useInView } from 'react-intersection-observer'
 import pricingTop from '../assets/images/pricing/pricingTop.svg'
 import pricingBtm from '../assets/images/pricing/pricingBtm.svg'
+import pricingFree from '../assets/images/pricing/pricingFree.svg'
+import pricingPro from '../assets/images/pricing/pricingPro.svg'
+import pricingEnterprise from '../assets/images/pricing/pricingEnterprise.svg'
 
 export default function Home() {
 
@@ -225,6 +228,7 @@ export default function Home() {
                     <h4 class="my-0 fw-normal">Free</h4>
                   </div>
                   <div class="card-body">
+                    <Image src={pricingFree} width='150' height='150' />
                     <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small></h1>
                     <ul class="list-unstyled mt-3 mb-4">
                       <li>10 users included</li>
@@ -244,6 +248,7 @@ export default function Home() {
                     <h4 class="my-0 fw-normal">Pro</h4>
                   </div>
                   <div class="card-body">
+                  <Image src={pricingPro} width='150' height='150' />
                     <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
                     <ul class="list-unstyled mt-3 mb-4">
                       <li>20 users included</li>
@@ -263,6 +268,7 @@ export default function Home() {
                     <h4 class={`my-0 fw-normal`}>Enterprise</h4>
                   </div>
                   <div class="card-body">
+                  <Image src={pricingEnterprise} width='150' height='150' />
                     <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/mo</small></h1>
                     <ul class="list-unstyled mt-3 mb-4">
                       <li>30 users included</li>

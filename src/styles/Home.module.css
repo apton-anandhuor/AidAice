@@ -222,6 +222,12 @@
 
 /* pricing */
 
+.pricing{
+  background-image: url('../assets/images/pricing/pricingBg.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .pricingContainer{
   margin-top: 1.125rem !important;
 }
