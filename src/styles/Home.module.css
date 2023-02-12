@@ -1,23 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap);
 
-.main {
+.hero,
+.heroContent,
+.main,
+.navItems {
   display: flex;
+  display: flex;
+}
+
+.btn:after,
+.customBtn {
+  box-shadow: inset 2px 2px 2px 0 rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0 rgba(0, 0, 0, 0.1), 4px 4px 5px 0 rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+/* Main */
+.main {
   flex-direction: column;
 }
 
-/* ==================Navbar================== */
+/* Custom Navbar */
 .customnavbar {
-  background-color: blueviolet !important;
+  background-color: #8a2be2 !important;
 }
 
 .customnavbar a {
-  color: white !important;
+  color: #fff !important;
 }
 
 .customnavbar button {
-  background-color: white;
+  background-color: #fff;
   border: none;
-  color: blueviolet;
+  color: #8a2be2;
 }
 
 .navContainer {
@@ -26,24 +41,20 @@
 }
 
 .navItems {
-  display: flex;
   justify-content: flex-end !important;
 }
 
-/* ==================Hero================== */
+/* Hero Section */
 .hero {
-  background-color: blueviolet;
+  background-color: #8a2be2;
   height: 45rem;
-  display: flex;
   align-items: center;
 }
 
 .heroContent {
-  display: flex;
   align-items: left !important;
-  display: flex;
   flex-direction: column;
-  color: white;
+  color: #fff;
   text-align: left;
   justify-content: center;
 }
@@ -53,7 +64,7 @@
 }
 
 .heroContent p {
-  color: white;
+  color: #fff;
   text-align: left;
   padding-top: 0.75rem;
 }
@@ -69,23 +80,29 @@
   color: #fff;
   border-radius: 15px;
   padding: 10px 25px;
-  font-family: 'Lato', sans-serif;
+  font-family: Lato, sans-serif;
   font-weight: 500;
-  background: transparent;
+  background: 0 0;
   cursor: pointer;
-  transition: all 0.3s ease;
   position: relative;
   display: inline-block;
-  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
-    7px 7px 20px 0px rgba(0, 0, 0, .1),
-    4px 4px 5px 0px rgba(0, 0, 0, .1);
-  /* outline: none; */
+}
+
+.apiContent,
+.featureImg,
+.ftSubContent {
+  display: flex;
 }
 
 .btn {
   background: #b621fe;
   border: none;
   z-index: 1;
+}
+
+.api,
+.priceCardActive {
+  background-color: #8a2be2;
 }
 
 .btn:after {
@@ -98,10 +115,6 @@
   z-index: -1;
   background-color: #663dff;
   border-radius: 5px;
-  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
-    7px 7px 20px 0px rgba(0, 0, 0, .1),
-    4px 4px 5px 0px rgba(0, 0, 0, .1);
-  transition: all 0.3s ease;
 }
 
 .btn:hover {
@@ -117,26 +130,23 @@
   top: 2px;
 }
 
-/* ==================Features================== */
-
-/* .features{
-  height: 30rem; 
-} */
-
+/* Feature Section */
 .featureBg {
   width: 100%;
   height: auto;
   margin-top: -1px;
 }
 
+.apiContent h1,
+.featureSet,
+.ftSubContent h2 {
+  margin-top: 0.75rem;
+}
+
 .featureBgBtm {
   width: 100%;
   height: auto;
   margin-bottom: -0.0625rem;
-}
-
-.featureImg {
-  display: flex;
 }
 
 .featureContent {
@@ -150,15 +160,10 @@
   font-size: 2.75rem;
   width: 100% !important;
   text-align: left;
-  color: blueviolet;
-}
-
-.featureSet {
-  margin-top: 0.75rem;
+  color: #8a2be2;
 }
 
 .ftSubContent {
-  display: flex;
   flex-direction: column;
   align-items: left !important;
   justify-content: flex-start !important;
@@ -169,7 +174,6 @@
   font-size: 1.25rem;
   font-weight: 37.5rem !important;
   font-style: bold;
-  margin-top: 0.75rem;
 }
 
 .ftSubContent p {
@@ -178,25 +182,18 @@
   opacity: 0.6;
 }
 
-/* ==================API================== */
-
-.api {
-  background-color: blueviolet;
-}
-
+/* Api Section */
 .apiContent {
-  display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: left;
 }
 
 .apiContent h1 {
-  color: white;
+  color: #fff;
   font-size: 2.75rem;
   font-weight: 37.5rem !important;
   font-style: bold;
-  margin-top: 0.75rem;
 }
 
 .apiStat {
@@ -205,52 +202,49 @@
 
 .counter {
   font-size: 41px;
-  color: white;
+  color: #fff;
 }
 
 .counter p {
   font-size: 15px;
-  color: white !important;
-  /* opacity: 0.6; */
+  color: #fff !important;
 }
 
 .statSubContent {
-  color: white;
+  color: #fff;
   margin-top: 0.9375rem;
   opacity: 0.6;
 }
 
-/* pricing */
-
-/* .pricing{
-  background-image: url('../assets/images/pricing/pricingBg.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
-
-.pricingContainer{
+/* Pricing Section */
+.pricingContainer {
   margin-top: 1.125rem !important;
 }
 
-.pricingHeading{
+.pricingHeading {
   color: #b621fe;
   font-size: 2.75rem;
 }
 
-.pricingSubHeading{
+.pricingSubHeading {
   font-size: 18px !important;
 }
 
-.priceCardActive{
-  background-color: blueviolet;
+.priceCardActive {
   color: #fff;
 }
 
-/* ==================Media Query Mobile Devices================== */
-
+/* Mobile Devices */
 @media (max-width: 576px) {
+  .apiContent,
+  .apiStat,
+  .featureContent h1,
+  .ftSubContent,
+  .heroContent h1,
+  .heroContent p {
+    text-align: center;
+  }
 
-  /* ==================hero================== */
   .navItems {
     justify-content: flex-start !important;
   }
@@ -272,18 +266,16 @@
 
   .heroContent h1 {
     font-size: 3rem;
-    text-align: center;
   }
-
-  .heroContent p {
-    text-align: center;
-  }
-
-  /* ==================feature================== */
 
   .featureImgContainer {
     display: flex !important;
     justify-content: center !important;
+  }
+
+  .featureContent,
+  .ftSubContent {
+    align-items: center;
   }
 
   .featureImg {
@@ -291,23 +283,7 @@
     height: auto;
   }
 
-  .featureContent {
-    align-items: center;
-  }
-
-  .featureContent h1 {
-    text-align: center;
-  }
-
-  .ftSubContent {
-    align-items: center;
-    text-align: center;
-  }
-
-  /* ==================Api================== */
-
   .apiContent {
-    text-align: center;
     align-items: center;
   }
 
@@ -315,15 +291,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
   }
+
 }
 
-
-/* ==================Media Query tabs and other devices================== */
+/* Tabs and Ipads */
 @media (max-width: 992px) {
-  
-  .hero{
+  .hero {
     height: auto;
   }
 
@@ -333,4 +307,6 @@
     text-align: center;
     margin-top: 9.375rem;
   }
+
 }
+
