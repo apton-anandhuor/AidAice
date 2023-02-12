@@ -19,6 +19,7 @@ import pricingBtm from "../assets/images/pricing/pricingBtm.svg";
 import pricingFree from "../assets/images/pricing/pricingFree.svg";
 import pricingPro from "../assets/images/pricing/pricingPro.svg";
 import pricingEnterprise from "../assets/images/pricing/pricingEnterprise.svg";
+import Popup from 'reactjs-popup';
 
 export default function Home() {
   const [ref, inView] = useInView({
@@ -37,7 +38,6 @@ export default function Home() {
 
       <main className={styles.main}>
         {/* Navbar starts */}
-
         <nav
           className={`navbar navbar-expand-lg bg-body-tertiary ${styles.customnavbar}`}
         >
