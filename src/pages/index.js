@@ -47,7 +47,7 @@ export default function Home() {
             </Link>
 
             <button
-              className="navbar-toggler"
+              className={`navbar-toggler ${styles.customNavBarBtn}`}
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent"

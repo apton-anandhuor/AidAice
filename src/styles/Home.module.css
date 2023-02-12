@@ -245,6 +245,10 @@
     text-align: center;
   }
 
+  .customNavBarBtn {
+    background-color: blueviolet !important;
+  }
+
   .navItems {
     justify-content: flex-start !important;
   }
@@ -292,7 +296,6 @@
     flex-direction: column;
     align-items: center;
   }
-
 }
 
 /* Tabs and Ipads */
@@ -307,6 +310,4 @@
     text-align: center;
     margin-top: 9.375rem;
   }
-
 }
-
