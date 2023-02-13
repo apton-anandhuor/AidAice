@@ -97,7 +97,7 @@ export default function Home() {
 
         <div className={styles.hero}>
           <div class="container text-center">
-            <div class="row">
+            <div className="row">
               <div class={`col-lg-6 ${styles.heroContent}`}>
                 <h1>Welcome to the future of Customer Support</h1>
                 <p>
@@ -394,7 +394,7 @@ export default function Home() {
                     </ul>
                     <button
                       type="button"
-                      class={`w-100 btn ${styles.customBtn} ${styles.btn}`}
+                      className={`w-100 btn ${styles.customBtn} ${styles.btn}`}
                     >
                       Contact us
                     </button>
