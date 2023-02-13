@@ -303,10 +303,22 @@
     flex-direction: column;
     align-items: center;
   }
+
+  .pricingCut{
+    margin-top: -2px;
+  }
 }
 
 /* Tabs and Ipads */
 @media (max-width: 992px) {
+  .customNavBarBtn {
+    background-color: blueviolet !important;
+  }
+
+  .navItems {
+    justify-content: flex-start !important;
+  }
+
   .hero {
     height: auto;
   }
@@ -316,5 +328,11 @@
     justify-content: center;
     text-align: center;
     margin-top: 9.375rem;
+  }
+
+  .featureImgContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }

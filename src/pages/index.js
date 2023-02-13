@@ -54,7 +54,7 @@ export default function Home() {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span className="navbar-toggler-icon"></span>
+              <span className="navbar-dark navbar-toggler-icon"></span>
             </button>
             <div
               className={`collapse navbar-collapse navbar-custom ${styles.navItems}`}
@@ -289,7 +289,6 @@ export default function Home() {
         {/* Api ends */}
 
         {/* Pricing Starts */}
-
         <div
           className={styles.pricing}
           style={{
@@ -389,7 +388,7 @@ export default function Home() {
                       <li>unlimited call bot</li>
                       <li>unlimited chat bot</li>
                       <li>15 GB of storage</li>
-                      <li>Phone and email support</li>
+                      <li>Phone & email support</li>
                       <li>Help center access</li>
                     </ul>
                     <button
@@ -407,7 +406,7 @@ export default function Home() {
             src={pricingBtm}
             width="1920"
             height="301"
-            className={styles.pricingCut}
+            className={styles.featureBgBtm}
             alt="feature bgTop"
           />
         </div>
