@@ -415,7 +415,7 @@ export default function Home() {
 
         {/* Clients section starts*/}
         <div className={styles.clients}>
-          <div class="container text-center">
+          <div className={`container text-center ${styles.clientContainer}`}>
             <div class="row">
               <div class={`col-lg-6 ${styles.apiContent}`}>
                 <h1>Trusted By Popular Companies all over the World.</h1>
@@ -487,7 +487,7 @@ export default function Home() {
                   <form>
                     <h5>Subscribe to our newsletter</h5>
                     <p>Monthly digest of what&apos;s new and exciting from us.</p>
-                    <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                    <div className={styles.subscribeForm}>
                       <label for="newsletter1" class="visually-hidden">Email address</label>
                       <input id="newsletter1" type="text" className={`form-control ${styles.customInput}`} placeholder="Email address" />
                       <button class={`${styles.customBtn} ${styles.btn}`}>
@@ -498,7 +498,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+              <div class={`d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top ${styles.social}`}>
                 <p className={styles.copyright}>&copy; 2023 Aid Aice, Inc. All rights reserved.</p>
                 <ul class="list-unstyled d-flex">
                   <li class="ms-3"><a class="link-dark" href="#">Twitter</a></li>
