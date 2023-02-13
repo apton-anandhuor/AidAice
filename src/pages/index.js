@@ -324,7 +324,7 @@ export default function Home() {
                     <h4 class="my-0 fw-normal">Free</h4>
                   </div>
                   <div class="card-body">
-                    <Image src={pricingFree} width="150" height="150" />
+                    <Image src={pricingFree} width="150" height="150" alt="pricingFree" />
                     <h1 class="card-title pricing-card-title">
                       $0<small class="text-muted fw-light">/mo</small>
                     </h1>
@@ -350,8 +350,8 @@ export default function Home() {
                   <div class="card-header py-3">
                     <h4 class="my-0 fw-normal">Pro</h4>
                   </div>
-                  <div class="card-body">
-                    <Image src={pricingPro} width="150" height="150" />
+                  <div class="card-body"> 
+                    <Image src={pricingPro} width="150" height="150" alt="pricingPro" />
                     <h1 class="card-title pricing-card-title">
                       $15<small class="text-muted fw-light">/mo</small>
                     </h1>
@@ -380,7 +380,7 @@ export default function Home() {
                     <h4 class={`my-0 fw-normal`}>Enterprise</h4>
                   </div>
                   <div class="card-body">
-                    <Image src={pricingEnterprise} width="150" height="150" />
+                    <Image src={pricingEnterprise} width="150" height="150" alt="pricingEnterprise" />
                     <h1 class="card-title pricing-card-title">
                       $29<small class="text-muted fw-light">/mo</small>
                     </h1>
