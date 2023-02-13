@@ -221,6 +221,12 @@
   margin-top: 1.125rem !important;
 }
 
+.pricingCut {
+  width: 100%;
+  height: auto;
+  margin-top: -0.0625rem;
+}
+
 .pricingHeading {
   color: #b621fe;
   font-size: 2.75rem;
@@ -236,6 +242,7 @@
 
 /* Mobile Devices */
 @media (max-width: 576px) {
+
   .apiContent,
   .apiStat,
   .featureContent h1,

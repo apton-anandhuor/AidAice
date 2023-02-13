@@ -302,7 +302,7 @@ export default function Home() {
             src={pricingTop}
             width="1920"
             height="301"
-            className={styles.featureBg}
+            className={styles.pricingCut}
             alt="feature bgTop"
           />
           <div className={`container ${styles.pricingContainer}`}>
@@ -407,7 +407,7 @@ export default function Home() {
             src={pricingBtm}
             width="1920"
             height="301"
-            className={styles.featureBg}
+            className={styles.pricingCut}
             alt="feature bgTop"
           />
         </div>
