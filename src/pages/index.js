@@ -421,12 +421,12 @@ export default function Home() {
                 <h1>Trusted By Popular Companies all over the World.</h1>
 
                 <p className={styles.statSubContent}>
-                  "We are proud to say that we have built a reputation as a reliable
+                  We are proud to say that we have built a reputation as a reliable
                   and efficient provider of top-notch automated call bot services, and
                   our clients include some of the biggest and most respected brands in the world.
                   Our commitment to excellence and our ability to consistently deliver results have
                   made us a trusted partner for companies looking to streamline their operations
-                  and improve customer engagement."{" "}
+                  and improve customer engagement.{" "}
                 </p>
 
                 <button class={`${styles.customBtn} ${styles.btn}`}>
