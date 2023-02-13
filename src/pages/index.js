@@ -313,7 +313,7 @@ export default function Home() {
               </h1>
               <p class={`fs-5 text-muted ${styles.pricingSubHeading}`}>
                 We understand the importance of efficient and effective communication, especially
-                in today's fast-paced business world.That's why we're proud to offer a comprehensive
+                in today&apos;s fast-paced business world.Thats why we&apos;re proud to offer a comprehensive
                 solution to help you streamline your call management with an affordable price range.
               </p>
             </div>
@@ -426,7 +426,7 @@ export default function Home() {
                   our clients include some of the biggest and most respected brands in the world.
                   Our commitment to excellence and our ability to consistently deliver results have
                   made us a trusted partner for companies looking to streamline their operations
-                  and improve customer engagement.{" "}
+                  and improve customer engagement.
                 </p>
 
                 <button class={`${styles.customBtn} ${styles.btn}`}>
@@ -486,7 +486,7 @@ export default function Home() {
                 <div className={`col ${styles.footerSubscribe}`}>
                   <form>
                     <h5>Subscribe to our newsletter</h5>
-                    <p>Monthly digest of what's new and exciting from us.</p>
+                    <p>Monthly digest of what&apos;s new and exciting from us.</p>
                     <div class="d-flex flex-column flex-sm-row w-100 gap-2">
                       <label for="newsletter1" class="visually-hidden">Email address</label>
                       <input id="newsletter1" type="text" className={`form-control ${styles.customInput}`} placeholder="Email address" />
