@@ -483,13 +483,13 @@ export default function Home() {
                   </ul>
                 </div>
 
-                <div class="col">
+                <div className={`col ${styles.footerSubscribe}`}>
                   <form>
                     <h5>Subscribe to our newsletter</h5>
                     <p>Monthly digest of what's new and exciting from us.</p>
                     <div class="d-flex flex-column flex-sm-row w-100 gap-2">
                       <label for="newsletter1" class="visually-hidden">Email address</label>
-                      <input id="newsletter1" type="text" class="form-control" placeholder="Email address" />
+                      <input id="newsletter1" type="text" className={`form-control ${styles.customInput}`} placeholder="Email address" />
                       <button class={`${styles.customBtn} ${styles.btn}`}>
                         Subscribe
                       </button>
